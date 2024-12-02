@@ -1,0 +1,1 @@
+instructure-dap-client[postgresql]==1.1.0
