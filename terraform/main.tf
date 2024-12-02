@@ -92,7 +92,7 @@ resource "aws_s3_object" "lambda_zip" {
 }
 
 resource "aws_sns_topic" "canvas_data_2_sync_results" {
-  name = var.SNS_TOPIC
+  name = var.sns_topic
 }
 
 resource "aws_sns_topic_subscription" "canvas_data_2_sync_results_email" {

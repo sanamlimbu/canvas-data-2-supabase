@@ -41,7 +41,7 @@ variable "tables" {
   type        = string
 }
 
-variable "SNS_TOPIC" {
+variable "sns_topic" {
   description = "AWS SNS topic."
   type        = string
 }
