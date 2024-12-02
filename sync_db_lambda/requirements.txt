@@ -1,0 +1,3 @@
+instructure-dap-client[postgresql]==1.1.0
+aws-lambda-powertools==2.34.2
+boto3
