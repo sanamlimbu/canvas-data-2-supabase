@@ -41,6 +41,11 @@ variable "tables" {
   type        = string
 }
 
+variable "SNS_TOPIC" {
+  description = "AWS SNS topic."
+  type        = string
+}
+
 variable "subscription_emails" {
   description = "Emails subscribing SNS topic."
   type        = list(string)
