@@ -26,7 +26,7 @@ AWS Lambda handler present in `sync_db_lambda` is deployed using Terraform. The 
 
 ### 2.1 Package distribution
 
-`create_package.sh` bash script inside terraform directory, creates a package that will be be deployed as AWS Lambda hanlder. Run the script before deployment.
+`create_package.sh` bash script inside terraform directory, creates a package that will be deployed as AWS Lambda handler. Run the script before deployment.
 
 ### 2.2 Environment variables
 
@@ -43,5 +43,4 @@ SNS_TOPIC_ARN="" -- obtained from Terraform
 
 ### 2.3 Deployment
 
-After setting up AWS credentials, HCF Terraform, and creating package, now, you are ready for deployment.
-Here, Terraform CLI is used for deployment.
+After setting up AWS credentials, HCF Terraform, and creating package, now, you are ready for deployment. Here, Terraform CLI is used for deployment.
